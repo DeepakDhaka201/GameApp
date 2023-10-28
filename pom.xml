@@ -8,11 +8,19 @@
         <version>2.7.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>Ludo</artifactId>
+    <groupId>com.gameapp</groupId>
+    <artifactId>GameApp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Ludo</name>
-    <description>Ludo</description>
+    <packaging>pom</packaging>
+    <name>GameApp</name>
+    <description>GameApp</description>
+    <modules>
+        <module>core-wallet</module>
+        <module>core-persistence</module>
+        <module>ludo</module>
+        <module>core</module>
+        <module>core-app</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -129,10 +137,10 @@
                 </configuration>
             </plugin>
 
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
