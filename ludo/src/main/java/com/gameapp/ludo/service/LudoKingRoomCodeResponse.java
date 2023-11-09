@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class LudoKingRoomCodeResponse {
-    @JsonProperty("room_code")
+    @JsonProperty("roomcode")
     private String roomCode;
 }

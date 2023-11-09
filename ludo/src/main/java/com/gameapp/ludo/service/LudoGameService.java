@@ -58,21 +58,24 @@ public class LudoGameService {
         }
     }
 
-    private void createNewLudoTable(String userId, Double amount, LudoType type) {
-        //Todo: Check for duplicate tables
+    private void createNewLudoTable(String userId, Double amount, AppGame type) {
+        if (tableRepo.findByCreatedByAndAmountAndLudoType(userId, amount, type).isPresent()) {
+            throw new AppException("Table already exists");
+        }
+
         LudoTable ludoTable = new LudoTable();
         ludoTable.setCreatedBy(userId);
         ludoTable.setAmount(amount);
         ludoTable.setPrize(calculatePrize(amount, type));
         ludoTable.setLudoType(type);
         ludoTable.setStatus(TableStatus.NEW);
-        ludoTable.setCreatorBalanceDeducted(amount);
 
         tableRepo.save(ludoTable);
     }
 
-    private Double calculatePrize(Double amount, LudoType type) {
-        return Math.ceil(amount * 2 - amount * 0.05);
+    private Double calculatePrize(Double amount, AppGame type) {
+        CommissionLevel commissionLevel = AppGame.getCommisionLevel(AppGame.LUDO_CLASSIC, amount);
+        return Math.ceil(amount * 2 - amount * commissionLevel.getCommission()/100);
     }
 
     @Transactional
@@ -157,7 +160,7 @@ public class LudoGameService {
                 throw new AppException("Invalid Request");
             }
 
-            String roomCode = ludoKingService.getLudoClassicRoomCode();
+            String roomCode = ludoKingService.getLudoKingRoomCode(ludoTable.getLudoType());
 
             creatorWalletLockKey = getWalletLockKey(ludoTable.getCreatedBy());
             acceptorWalletLockKey = getWalletLockKey(ludoTable.getAcceptedBy());
@@ -224,7 +227,8 @@ public class LudoGameService {
     public void updateTableResult(UpdateResultRequest updateResultRequest, UserDto userDto) {
         LudoTable ludoTable = tableRepo.findById(updateResultRequest.getTableId()).get();
 
-        if (!ludoTable.getCreatedBy().equals(userDto.getLoggedInUserId()) || ludoTable.getAcceptedBy().equals(userDto.getLoggedInUserId())) {
+        if (!(ludoTable.getCreatedBy().equals(userDto.getLoggedInUserId())
+                || ludoTable.getAcceptedBy().equals(userDto.getLoggedInUserId()))) {
             throw new AppException("Invalid Request");
         }
 
@@ -233,8 +237,8 @@ public class LudoGameService {
         }
 
         if (ludoTable.getStatus().equals(TableStatus.RUNNING) || ludoTable.getStatus().equals(TableStatus.UNDER_REVIEW)) {
-            if (ludoTable.getCreatedBy().equals(userDto.getLoggedInUserId())) {
-                tableRepo.updateTableOnCreatorResult(ludoTable.getId(),updateResultRequest.getScreenshotUrl(),
+            if (ludoTable.getCreatedBy().equalsIgnoreCase(userDto.getLoggedInUserId())) {
+                tableRepo.updateTableOnCreatorResult(ludoTable.getId(), updateResultRequest.getScreenshotUrl(),
                         updateResultRequest.getStatus(), updateResultRequest.getReason(), TableStatus.UNDER_REVIEW);
             }
 

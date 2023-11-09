@@ -1,9 +1,12 @@
 package com.gameapp.apis;
 
+import com.gameapp.core.dto.AddReferralRequest;
 import com.gameapp.core.dto.GenerateOtpResponse;
+import com.gameapp.core.dto.UserDto;
 import com.gameapp.core.dto.request.LoginRequest;
 import com.gameapp.core.dto.response.LoginResponse;
 import com.gameapp.service.OtpService;
+import com.gameapp.service.UserService;
 import com.gameapp.utils.JWTUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -21,6 +24,7 @@ public class UserApi {
 
     private final JWTUtils jwtUtils;
     private final OtpService otpService;
+    private final UserService userService;
 
     @CrossOrigin
     @PostMapping("/send-otp")
@@ -41,5 +45,14 @@ public class UserApi {
     @PostMapping("/logout")
     public void logout(@RequestHeader Map<String, Object> headers) {
         jwtUtils.verifyToken(headers);
+    }
+
+    @CrossOrigin
+    @PostMapping("/add-referral")
+    public ResponseEntity.BodyBuilder addReferralCode(@RequestHeader Map<String, Object> headers,
+                                @RequestBody AddReferralRequest referralRequest) {
+        UserDto userDto = jwtUtils.verifyToken(headers);
+        userService.addReferralCode(userDto, referralRequest);
+        return ResponseEntity.ok();
     }
 }

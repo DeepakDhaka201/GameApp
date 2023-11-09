@@ -17,9 +17,9 @@ import java.util.Objects;
 
 @Component
 public class JWTUtils {
-    public static final long JWT_TOKEN_VALIDITY = 10 * 60 * 60 * 1000;
+    public static final long JWT_TOKEN_VALIDITY = 24L * 60 * 60 * 60 * 1000;
     @Value("${jwt.secret}")
-    private String secretKey = "464556445445e4545445";
+    private String secretKey;
 
     public String generateToken(User user) {
         return doGenerateToken(user.getId(), user.getRole());

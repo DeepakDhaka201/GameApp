@@ -56,8 +56,7 @@ public class MyAcService {
         List<TableStatus> tableStatuses = Arrays.asList(TableStatus.RUNNING, TableStatus.COMPLETED,
                 TableStatus.UNDER_REVIEW, TableStatus.CANCELLED);
 
-        List<LudoTable> ludoTables = tableRepo.findByCreatorIdOrAcceptorIdAndStatus(userId);// tableStatuses.toArray());
-        return ludoTables;
+        return tableRepo.findByCreatorIdOrAcceptorIdAndStatus(userId);
     }
 
     public BalanceSummary getBalanceSummary(UserDto userDto) {
