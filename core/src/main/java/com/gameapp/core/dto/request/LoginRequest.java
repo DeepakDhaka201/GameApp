@@ -9,4 +9,5 @@ public class LoginRequest {
     private String phone;
     private String otp;
     private String secret;
+    private String refereeCode;
 }

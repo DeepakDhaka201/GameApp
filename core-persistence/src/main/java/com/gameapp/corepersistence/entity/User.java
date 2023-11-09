@@ -1,6 +1,7 @@
 package com.gameapp.corepersistence.entity;
 
 import com.gameapp.core.dto.KycStatus;
+import com.gameapp.core.dto.ReferralTier;
 import com.gameapp.core.dto.UserRole;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,13 +28,18 @@ public class User {
 
     private String avatar;
     private String referralCode;
-    private Double referralCommision;
-    private String upiId;
+
+    @Enumerated(EnumType.STRING)
+    private ReferralTier referredTier;
+
+    @Enumerated(EnumType.STRING)
+    private ReferralTier onReferralTier;
 
     @Enumerated(EnumType.STRING)
     private UserRole role;
 
     private String referredBy;
+
     private Long createdAt;
     private Long updatedAt;
 }

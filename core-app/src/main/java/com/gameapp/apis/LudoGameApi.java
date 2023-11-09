@@ -22,7 +22,6 @@ public class LudoGameApi {
                                                  @RequestBody CreateLudoTableRequest createLudoTableRequest) throws InterruptedException {
         UserDto userDto = jwtUtils.verifyToken(headers);
         ludoGameService.createTable(userDto, createLudoTableRequest);
-
     }
 
     @PostMapping("/join")

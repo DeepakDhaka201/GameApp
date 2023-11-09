@@ -1,5 +1,7 @@
 package com.gameapp.ludo.repo;
 
+import com.gameapp.core.dto.AppGame;
+import com.gameapp.core.dto.LudoType;
 import com.gameapp.core.dto.TableStatus;
 import com.gameapp.core.dto.UserGameStatus;
 import com.gameapp.ludo.entity.LudoTable;
@@ -10,6 +12,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface TableRepo extends JpaRepository<LudoTable, Long> {
@@ -54,4 +57,6 @@ public interface TableRepo extends JpaRepository<LudoTable, Long> {
 
     @Query(value = "SELECT * FROM ludo_table WHERE status IN ('NEW', 'RUNNING', 'MATCHING')", nativeQuery = true)
     List<LudoTable> findAllByStatus();
+
+    Optional<Object> findByCreatedByAndAmountAndLudoType(String userId, Double amount, AppGame type);
 }

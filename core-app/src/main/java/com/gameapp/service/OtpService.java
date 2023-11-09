@@ -58,7 +58,7 @@ public class OtpService {
 
                 User user = userRepo.findByPhone(phone);
                 if (Objects.isNull(user)) {
-                    user = userService.createNewUser(phone);
+                    user = userService.createNewUser(phone, loginRequest.getRefereeCode());
                 }
 
                 return jwtUtils.generateToken(user);
