@@ -1,6 +1,5 @@
 package com.gameapp.ludo.entity;
 
-import com.gameapp.core.dto.AppGame;
 import com.gameapp.core.dto.LudoType;
 import com.gameapp.core.dto.TableStatus;
 import com.gameapp.core.dto.UserGameStatus;
@@ -24,7 +23,7 @@ public class LudoTable {
     private String acceptedBy;
 
     @Enumerated(EnumType.STRING)
-    private AppGame ludoType;
+    private LudoType ludoType;
 
     private Double amount;
     private Double prize;

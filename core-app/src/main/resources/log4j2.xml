@@ -28,7 +28,13 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="com.roytuts" level="debug" />
+        <Root level="debug">
+            <AppenderRef ref="FILE" />
+            <AppenderRef ref="STDOUT" />
+        </Root>
+
+        <Logger name="com.gameapp.apis" level="debug" />
+        <Logger name="com.gameapp" level="debug" />
 
         <Logger name="org.springframework.web" level="info"
                 additivity="false" />
@@ -36,11 +42,6 @@
         <Logger name="file" level="debug" additivity="false">
             <appender-ref ref="FILE" />
         </Logger>
-
-        <Root level="warn">
-            <AppenderRef ref="FILE" />
-            <AppenderRef ref="STDOUT" />
-        </Root>
     </Loggers>
 
 </Configuration>

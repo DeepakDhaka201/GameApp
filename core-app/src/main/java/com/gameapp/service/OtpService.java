@@ -1,72 +1,67 @@
 package com.gameapp.service;
-import com.gameapp.utils.JWTUtils;
+
 import com.gameapp.core.dto.GenerateOtpResponse;
+import com.gameapp.core.dto.SendOtpApiResponse;
+import com.gameapp.core.dto.VerifyOtpApiResponse;
 import com.gameapp.core.dto.request.LoginRequest;
+import com.gameapp.core.util.AppError;
+import com.gameapp.core.util.AppException;
 import com.gameapp.corepersistence.entity.User;
+import com.gameapp.corepersistence.repo.UserRepo;
+import com.gameapp.utils.JWTUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import com.gameapp.core.redis.RedisService;
-import com.gameapp.corepersistence.repo.UserRepo;
-import com.gameapp.core.util.AppError;
-import com.gameapp.core.util.AppException;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.Objects;
-import java.util.Random;
-import java.util.UUID;
 
 import static com.gameapp.core.util.Message.INVALID_OTP;
-import static com.gameapp.core.util.Message.OTP_EXPIRED;
+import static com.gameapp.core.util.Message.OTP_NOT_SENT;
 
 @Slf4j
 @Service
 @RequiredArgsConstructor
 public class OtpService {
-    private static final Long OTP_EXPIRY_TIME = (long) (60 * 1000);
-    private final RedisService redisService;
-
     private final JWTUtils jwtUtils;
-
     private final UserRepo userRepo;
-
     private final UserService userService;
 
+    private static final String SEND_OTP_URL = "https://2factor.in/API/V1/d7b643bb-d6aa-11eb-8089-0200cd936042/SMS/%s/AUTOGEN/EpicWin"; //1.Phone
+    private static final String VERIFY_OTP_URL = "https://2factor.in/API/V1/d7b643bb-d6aa-11eb-8089-0200cd936042/SMS/VERIFY/%s/%s"; //1.SessionId, 2.OtpCode
+
     public GenerateOtpResponse generateOtp(String phone) {
-        String otp = String.valueOf(new Random().nextInt(900000) + 100000);
-        String secret = UUID.randomUUID().toString();
+        RestTemplate restTemplate = new RestTemplate();
+        String url = String.format(SEND_OTP_URL, phone);
+        SendOtpApiResponse response = restTemplate.getForObject(url, SendOtpApiResponse.class);
+        log.info("Response from send otp url: {}", response);
+        System.out.println("Response from send otp url: " + response);
 
-        System.out.println(otp);
-        log.info("Generated Otp : {} and Secret : {} for number : {}", otp, secret, phone);
-        //Todo: send to phone
+        if (Objects.isNull(response) || !response.getStatus().equalsIgnoreCase("Success")) {
+            throw new AppException(AppError.OTP_NOT_SENT, OTP_NOT_SENT);
+        }
 
-        redisService.set(phone + secret, otp, OTP_EXPIRY_TIME);
         GenerateOtpResponse generateOtpResponse = new GenerateOtpResponse();
-        generateOtpResponse.setSecret(secret);
+        generateOtpResponse.setSecret(response.getDetails());
         return generateOtpResponse;
     }
 
     public String verifyOtp(LoginRequest loginRequest) {
         String phone = loginRequest.getPhone();
-        String otp = loginRequest.getOtp();
-        String secret = loginRequest.getSecret();
 
-        String redisKey = phone + secret;
-        String storedOtp = (String) redisService.get(redisKey);
-        if (Objects.nonNull(storedOtp)) {
-            if (storedOtp.equalsIgnoreCase(otp)) {
-                redisService.delete(redisKey);
-
-                User user = userRepo.findByPhone(phone);
-                if (Objects.isNull(user)) {
-                    user = userService.createNewUser(phone, loginRequest.getRefereeCode());
-                }
-
-                return jwtUtils.generateToken(user);
-            } else {
-                throw new AppException(AppError.INVALID_OTP, INVALID_OTP);
+        RestTemplate restTemplate = new RestTemplate();
+        String url = String.format(VERIFY_OTP_URL, loginRequest.getSecret(), loginRequest.getOtp());
+        VerifyOtpApiResponse response = restTemplate.getForObject(url, VerifyOtpApiResponse.class);
+        log.info("Response from verify otp url: {}", response);
+        assert response != null;
+        if (response.getStatus().equalsIgnoreCase("Success")) {
+            User user = userRepo.findByPhone(phone);
+            if (Objects.isNull(user)) {
+                user = userService.createNewUser(phone, loginRequest.getRefereeCode());
             }
+            return jwtUtils.generateToken(user);
         } else {
-            throw new AppException(AppError.OTP_EXPIRED, OTP_EXPIRED);
+            throw new AppException(AppError.INVALID_OTP, INVALID_OTP);
         }
     }
 }

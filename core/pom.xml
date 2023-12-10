@@ -11,12 +11,6 @@
     </parent>
 
     <artifactId>core</artifactId>
-
-<!--    <properties>-->
-<!--        <maven.compiler.source>15</maven.compiler.source>-->
-<!--        <maven.compiler.target>15</maven.compiler.target>-->
-<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-<!--    </properties>-->
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -36,7 +30,4 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-
-
 </project>

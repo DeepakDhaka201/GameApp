@@ -11,55 +11,55 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/v1/ludo/table")
+@RequestMapping("/v1/ludo")
 @RequiredArgsConstructor
 public class LudoGameApi {
     private final JWTUtils jwtUtils;
     private final LudoGameService ludoGameService;
 
-    @PostMapping("/create")
+    @PostMapping("/create-table")
     public void createLudoTable(@RequestHeader Map<String, Object> headers,
                                                  @RequestBody CreateLudoTableRequest createLudoTableRequest) throws InterruptedException {
         UserDto userDto = jwtUtils.verifyToken(headers);
         ludoGameService.createTable(userDto, createLudoTableRequest);
     }
 
-    @PostMapping("/join")
+    @PostMapping("/join-table")
     public void joinLudoTable(@RequestHeader Map<String, Object> headers,
                               @RequestBody JoinLudoTableRequest joinLudoTableRequest) throws InterruptedException {
         UserDto userDto = jwtUtils.verifyToken(headers);
         ludoGameService.requestJoinLudoTable(joinLudoTableRequest.getTableId(), userDto);
     }
 
-    @PostMapping("/delete")
+    @PostMapping("/delete-table")
     public void deleteLudoTable(@RequestHeader Map<String, Object> headers,
                                 @RequestBody DeleteLudoTableRequest deleteLudoTableRequest) throws InterruptedException {
         UserDto userDto = jwtUtils.verifyToken(headers);
         ludoGameService.deleteLudoTable(deleteLudoTableRequest.getTableId(), userDto);
     }
 
-    @PostMapping("/accept")
+    @PostMapping("/accept-table")
     public void acceptJoinLudoTableRequest(@RequestHeader Map<String, Object> headers,
                                            @RequestBody JoinLudoTableRequest joinLudoTableRequest) throws InterruptedException {
         UserDto userDto = jwtUtils.verifyToken(headers);
         ludoGameService.acceptJoinLudoTableRequest(joinLudoTableRequest.getTableId(), userDto);
     }
 
-    @PostMapping("/reject")
+    @PostMapping("/reject-table")
     public void rejectJoinLudoTableRequest(@RequestHeader Map<String, Object> headers,
                                            @RequestBody JoinLudoTableRequest joinLudoTableRequest) throws InterruptedException {
         UserDto userDto = jwtUtils.verifyToken(headers);
         ludoGameService.rejectJoinLudoTableRequest(joinLudoTableRequest.getTableId(), userDto);
     }
 
-    @PostMapping("/update-result")
+    @PostMapping("/update-table-result")
     public void updateResult(@RequestHeader Map<String, Object> headers,
                              @RequestBody UpdateResultRequest updateResultRequest) {
         UserDto userDto = jwtUtils.verifyToken(headers);
         ludoGameService.updateTableResult(updateResultRequest, userDto);
     }
 
-    @PostMapping("/room-code")
+    @PostMapping("/table-room-code")
     public ResponseEntity<LudoKingRoomCodeResponse> getRoomCode(@RequestHeader Map<String, Object> headers,
                                                                 @RequestBody JoinLudoTableRequest joinLudoTableRequest) {
         UserDto userDto = jwtUtils.verifyToken(headers);

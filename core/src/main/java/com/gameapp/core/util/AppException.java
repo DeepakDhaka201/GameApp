@@ -1,9 +1,13 @@
 package com.gameapp.core.util;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@EqualsAndHashCode(callSuper = true)
+@Data
 public class AppException extends RuntimeException {
     private String displayMessage;
     private String errorCode;
-
     private String[] params;
 
     public AppException(String message) {

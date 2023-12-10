@@ -15,4 +15,12 @@ public interface UserBalanceRepo extends JpaRepository<UserBalance, String> {
     @Modifying
     @Query("UPDATE UserBalance SET balance = balance - ?2, onHold = onHold + ?2 WHERE userId = ?1")
     void deductBalanceAndUpdateOnHold(String userId, Double amount);
+
+    @Modifying
+    @Query("UPDATE UserBalance SET balance = balance - ?2 WHERE userId = ?1")
+    void deductBalance(String loggedInUserId, Double amount);
+
+    @Modifying
+    @Query("UPDATE UserBalance SET balance = balance + ?2 WHERE userId = ?1")
+    void addBalance(String loggedInUserId, Double amount);
 }

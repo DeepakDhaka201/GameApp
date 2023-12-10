@@ -1,6 +1,6 @@
 package com.gameapp.ludo.service;
 
-import com.gameapp.core.dto.AppGame;
+import com.gameapp.core.dto.LudoType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpEntity;
@@ -23,16 +23,16 @@ public class LudoKingService {
     public static final String CREATE_QUICK_ROOM_API = "https://ludo-king-room-code-api.p.rapidapi.com/roomcode/q";
 
 
-    public String getLudoKingRoomCode(AppGame appGame) {
+    public String getLudoKingRoomCode(LudoType appGame) {
         String url = null;
         switch (appGame) {
-            case LUDO_CLASSIC:
+            case LUDO_KING_CLASSIC:
                 url = CREATE_CLASSIC_ROOM_API;
                 break;
-            case LUDO_POPULAR:
+            case LUDO_KING_POPULAR:
                 url = CREATE_POPULAR_ROOM_API;
                 break;
-            case LUDO_QUICK:
+            case LUDO_KING_QUICK:
                 url = CREATE_QUICK_ROOM_API;
                 break;
         }

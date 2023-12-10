@@ -6,6 +6,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class CreateLudoTableRequest {
-    private AppGame type;
+    private LudoType type;
     private Double amount;
 }

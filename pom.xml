@@ -20,6 +20,7 @@
         <module>ludo</module>
         <module>core</module>
         <module>core-app</module>
+        <module>color-prediction</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -134,6 +135,7 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                    <mainClass>com.gameapp.GameApplication</mainClass>
                 </configuration>
             </plugin>
 

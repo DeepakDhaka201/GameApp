@@ -58,5 +58,5 @@ public interface TableRepo extends JpaRepository<LudoTable, Long> {
     @Query(value = "SELECT * FROM ludo_table WHERE status IN ('NEW', 'RUNNING', 'MATCHING')", nativeQuery = true)
     List<LudoTable> findAllByStatus();
 
-    Optional<Object> findByCreatedByAndAmountAndLudoType(String userId, Double amount, AppGame type);
+    Optional<Object> findByCreatedByAndAmountAndLudoType(String userId, Double amount, LudoType type);
 }

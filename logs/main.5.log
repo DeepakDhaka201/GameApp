@@ -1,0 +1,232 @@
+2023.12.10 13:11:24.127 [INFO] com.gameapp.GameApplication: Starting GameApplication using Java 1.8.0_382 on MBP-C02F5D42MD6M with PID 13995 (/Users/deepakdhaka/gameapp/GameApp/core-app/target/classes started by deepakdhaka in /Users/deepakdhaka/gameapp/GameApp)
+2023.12.10 13:11:24.134 [DEBUG] com.gameapp.GameApplication: Running with Spring Boot v2.7.4, Spring v5.3.23
+2023.12.10 13:11:24.136 [INFO] com.gameapp.GameApplication: No active profile set, falling back to 1 default profile: "default"
+2023.12.10 13:11:28.168 [INFO] com.gameapp.GameApplication: Started GameApplication in 4.326 seconds (JVM running for 5.165)
+2023.12.10 13:11:28.230 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231008, startTime=1702193981595, endTime=1702194101595, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702193981595, updatedAt=1702193981595, settled=null)
+2023.12.10 13:11:28.230 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:28.735 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:29.240 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:29.743 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:30.246 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:30.750 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:31.253 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:31.755 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:32.256 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:32.761 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:33.264 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:33.765 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:34.266 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:11:34.787 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:11:34.802 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231008, startTime=1702193981595, endTime=1702194101595, active=false, number=null, color=null, resultDeclaredAt=1702194094796, resultDeclaredBy=-1, createdAt=1702193981595, updatedAt=1702194094796, settled=null)
+2023.12.10 13:11:34.803 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:35.306 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:35.808 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:36.310 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:36.810 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:37.314 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:37.818 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:38.322 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:38.823 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:39.325 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:39.830 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:40.332 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:40.837 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:41.341 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:11:41.863 [INFO] com.gameapp.colorprediction.CPScheduledTask: New period started: CpPeriod(id=20231009, startTime=1702194101847, endTime=1702194221847, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194101847, updatedAt=1702194101847, settled=null)
+2023.12.10 13:13:28.158 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231009, startTime=1702194101847, endTime=1702194221847, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194101847, updatedAt=1702194101847, settled=null)
+2023.12.10 13:13:28.159 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:28.661 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:29.167 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:29.671 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:30.175 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:30.680 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:31.183 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:31.687 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:32.191 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:32.694 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:33.200 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:33.701 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:34.202 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:34.707 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:13:35.214 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:13:35.215 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231009, startTime=1702194101847, endTime=1702194221847, active=false, number=null, color=null, resultDeclaredAt=1702194215215, resultDeclaredBy=-1, createdAt=1702194101847, updatedAt=1702194215215, settled=null)
+2023.12.10 13:13:35.215 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:35.716 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:36.218 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:36.724 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:37.226 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:37.729 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:38.234 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:38.735 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:39.239 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:39.743 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:40.248 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:40.751 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:41.255 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:41.759 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:13:42.267 [INFO] com.gameapp.colorprediction.CPScheduledTask: New period started: CpPeriod(id=20231010, startTime=1702194222264, endTime=1702194342264, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194222264, updatedAt=1702194222264, settled=null)
+2023.12.10 13:15:28.158 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231010, startTime=1702194222264, endTime=1702194342264, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194222264, updatedAt=1702194222264, settled=null)
+2023.12.10 13:15:28.159 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:28.662 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:29.180 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:29.681 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:30.185 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:30.687 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:31.188 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:31.689 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:32.190 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:32.694 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:33.195 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:33.698 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:34.203 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:34.719 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:35.220 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:15:35.726 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:15:35.726 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231010, startTime=1702194222264, endTime=1702194342264, active=false, number=null, color=null, resultDeclaredAt=1702194335726, resultDeclaredBy=-1, createdAt=1702194222264, updatedAt=1702194335726, settled=null)
+2023.12.10 13:15:35.726 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:36.228 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:36.731 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:37.236 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:37.741 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:38.246 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:38.749 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:39.252 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:39.754 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:40.258 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:40.759 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:41.262 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:41.763 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:15:42.270 [INFO] com.gameapp.colorprediction.CPScheduledTask: New period started: CpPeriod(id=20231011, startTime=1702194342266, endTime=1702194462266, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194342266, updatedAt=1702194342266, settled=null)
+2023.12.10 13:17:28.156 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231011, startTime=1702194342266, endTime=1702194462266, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194342266, updatedAt=1702194342266, settled=null)
+2023.12.10 13:17:28.156 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:28.661 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:29.166 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:29.671 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:30.172 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:30.672 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:31.173 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:31.679 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:32.180 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:32.681 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:33.183 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:33.687 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:34.187 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:34.688 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:35.192 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:17:35.695 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:17:35.696 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231011, startTime=1702194342266, endTime=1702194462266, active=false, number=null, color=null, resultDeclaredAt=1702194455696, resultDeclaredBy=-1, createdAt=1702194342266, updatedAt=1702194455696, settled=null)
+2023.12.10 13:17:35.696 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:36.200 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:36.703 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:37.204 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:37.705 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:38.209 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:38.714 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:39.215 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:39.719 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:40.222 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:40.723 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:41.225 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:41.729 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:42.235 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:17:42.738 [INFO] com.gameapp.colorprediction.CPScheduledTask: New period started: CpPeriod(id=20231012, startTime=1702194462735, endTime=1702194582735, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194462735, updatedAt=1702194462735, settled=null)
+2023.12.10 13:19:28.157 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231012, startTime=1702194462735, endTime=1702194582735, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194462735, updatedAt=1702194462735, settled=null)
+2023.12.10 13:19:28.158 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:28.663 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:29.166 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:29.672 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:30.174 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:30.675 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:31.177 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:31.679 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:32.182 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:32.687 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:33.188 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:33.690 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:34.192 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:34.696 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:35.200 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:35.701 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:19:36.208 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:19:36.209 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231012, startTime=1702194462735, endTime=1702194582735, active=false, number=null, color=null, resultDeclaredAt=1702194576208, resultDeclaredBy=-1, createdAt=1702194462735, updatedAt=1702194576208, settled=null)
+2023.12.10 13:19:36.209 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:36.710 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:37.215 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:37.716 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:38.219 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:38.723 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:39.224 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:39.726 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:40.228 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:40.732 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:41.235 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:41.737 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:42.239 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:19:42.742 [INFO] com.gameapp.colorprediction.CPScheduledTask: New period started: CpPeriod(id=20231013, startTime=1702194582740, endTime=1702194702740, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194582740, updatedAt=1702194582740, settled=null)
+2023.12.10 13:21:28.159 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231013, startTime=1702194582740, endTime=1702194702740, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194582740, updatedAt=1702194582740, settled=null)
+2023.12.10 13:21:28.159 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:28.664 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:29.169 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:29.673 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:30.177 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:30.679 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:31.181 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:31.683 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:32.188 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:32.689 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:33.193 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:33.696 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:34.200 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:34.702 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:35.203 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:35.704 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:21:36.211 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:21:36.211 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231013, startTime=1702194582740, endTime=1702194702740, active=false, number=null, color=null, resultDeclaredAt=1702194696211, resultDeclaredBy=-1, createdAt=1702194582740, updatedAt=1702194696211, settled=null)
+2023.12.10 13:21:36.211 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:36.713 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:37.218 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:37.719 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:38.221 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:38.721 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:39.224 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:39.726 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:40.230 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:40.734 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:41.235 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:41.737 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:42.254 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:21:42.757 [INFO] com.gameapp.colorprediction.CPScheduledTask: New period started: CpPeriod(id=20231014, startTime=1702194702755, endTime=1702194822755, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194702755, updatedAt=1702194702755, settled=null)
+2023.12.10 13:23:28.157 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231014, startTime=1702194702755, endTime=1702194822755, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194702755, updatedAt=1702194702755, settled=null)
+2023.12.10 13:23:28.157 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:28.658 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:29.158 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:29.661 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:30.164 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:30.664 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:31.165 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:31.670 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:32.174 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:32.675 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:33.176 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:33.680 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:34.184 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:34.691 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:35.195 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:35.699 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for bets to be placed
+2023.12.10 13:23:36.210 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:23:36.211 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231014, startTime=1702194702755, endTime=1702194822755, active=false, number=null, color=null, resultDeclaredAt=1702194816211, resultDeclaredBy=-1, createdAt=1702194702755, updatedAt=1702194816211, settled=null)
+2023.12.10 13:23:36.211 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:36.711 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:37.212 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:37.712 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:38.216 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:38.717 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:39.222 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:39.725 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:40.230 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:40.733 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:41.235 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:41.735 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:42.240 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:42.744 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:23:43.247 [INFO] com.gameapp.colorprediction.CPScheduledTask: New period started: CpPeriod(id=20231015, startTime=1702194823245, endTime=1702194943245, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702194823245, updatedAt=1702194823245, settled=null)

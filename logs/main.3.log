@@ -1,0 +1,479 @@
+2023.12.10 13:05:57.170 [INFO] com.gameapp.GameApplication: Starting GameApplication using Java 1.8.0_382 on MBP-C02F5D42MD6M with PID 13757 (/Users/deepakdhaka/gameapp/GameApp/core-app/target/classes started by deepakdhaka in /Users/deepakdhaka/gameapp/GameApp)
+2023.12.10 13:05:57.179 [DEBUG] com.gameapp.GameApplication: Running with Spring Boot v2.7.4, Spring v5.3.23
+2023.12.10 13:05:57.180 [INFO] com.gameapp.GameApplication: No active profile set, falling back to 1 default profile: "default"
+2023.12.10 13:06:01.218 [INFO] com.gameapp.GameApplication: Started GameApplication in 4.302 seconds (JVM running for 5.108)
+2023.12.10 13:06:01.285 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231006, startTime=1702193741370, endTime=1702193861370, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702193741370, updatedAt=1702193741370, settled=null)
+2023.12.10 13:06:01.306 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:06:01.324 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231006, startTime=1702193741370, endTime=1702193861370, active=false, number=null, color=null, resultDeclaredAt=1702193761317, resultDeclaredBy=-1, createdAt=1702193741370, updatedAt=1702193761317, settled=null)
+2023.12.10 13:06:01.325 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:01.829 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:02.333 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:02.838 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:03.339 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:03.840 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:04.344 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:04.845 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:05.347 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:05.848 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:06.349 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:06.850 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:07.353 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:07.859 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:08.361 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:08.864 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:09.364 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:09.869 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:10.369 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:10.870 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:11.370 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:11.874 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:12.380 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:12.891 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:13.394 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:13.899 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:14.400 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:14.903 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:15.405 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:15.909 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:16.410 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:16.913 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:17.414 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:17.914 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:18.416 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:18.921 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:19.422 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:19.923 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:20.424 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:20.925 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:21.427 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:21.931 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:22.436 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:22.940 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:23.445 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:23.948 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:24.453 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:24.958 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:25.462 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:25.967 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:26.471 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:26.972 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:27.475 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:27.978 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:28.481 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:28.986 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:29.490 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:29.994 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:30.499 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:31.002 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:31.506 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:32.009 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:32.513 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:33.017 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:33.520 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:34.024 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:34.529 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:35.034 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:35.538 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:36.039 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:36.541 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:37.044 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:37.547 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:38.049 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:38.550 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:39.055 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:39.559 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:40.063 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:40.568 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:41.071 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:41.576 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:42.080 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:42.581 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:43.084 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:43.588 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:44.092 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:44.599 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:45.100 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:45.602 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:46.106 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:46.607 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:47.111 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:47.616 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:48.119 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:48.623 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:49.126 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:49.630 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:50.133 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:50.637 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:51.140 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:51.642 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:52.144 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:52.645 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:53.146 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:53.648 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:54.151 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:54.655 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:55.157 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:55.661 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:56.165 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:56.670 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:57.173 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:57.678 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:58.183 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:58.688 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:59.190 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:06:59.690 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:00.191 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:00.693 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:01.199 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:01.701 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:02.206 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:02.716 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:03.221 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:03.722 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:04.226 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:04.728 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:05.230 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:05.736 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:06.238 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:06.741 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:07.244 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:07.748 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:08.249 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:08.753 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:09.258 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:09.763 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:10.267 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:10.770 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:11.271 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:11.773 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:12.278 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:12.782 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:13.283 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:13.787 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:14.290 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:14.794 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:15.298 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:15.802 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:16.307 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:16.810 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:17.311 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:17.812 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:18.315 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:18.815 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:19.317 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:19.818 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:20.319 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:20.824 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:21.340 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:21.844 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:22.348 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:22.850 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:23.354 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:23.860 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:24.363 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:24.865 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:25.370 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:25.873 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:26.375 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:26.879 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:27.380 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:27.884 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:28.388 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:28.893 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:29.399 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:29.904 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:30.405 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:30.910 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:31.415 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:31.919 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:32.421 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:32.926 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:33.430 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:33.934 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:34.437 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:34.942 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:35.444 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:35.946 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:36.448 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:36.948 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:37.451 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:37.954 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:38.454 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:38.957 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:39.461 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:39.963 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:40.464 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:40.977 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:07:41.496 [INFO] com.gameapp.colorprediction.CPScheduledTask: New period started: CpPeriod(id=20231007, startTime=1702193861480, endTime=1702193981480, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702193861480, updatedAt=1702193861480, settled=null)
+2023.12.10 13:08:01.224 [INFO] com.gameapp.colorprediction.CPScheduledTask: Current period: CpPeriod(id=20231007, startTime=1702193861480, endTime=1702193981480, active=true, number=null, color=null, resultDeclaredAt=null, resultDeclaredBy=null, createdAt=1702193861480, updatedAt=1702193861480, settled=null)
+2023.12.10 13:08:01.226 [INFO] com.gameapp.colorprediction.CPScheduledTask: No open bets found
+2023.12.10 13:08:01.227 [INFO] com.gameapp.colorprediction.CPScheduledTask: Period closed: CpPeriod(id=20231007, startTime=1702193861480, endTime=1702193981480, active=false, number=null, color=null, resultDeclaredAt=1702193881226, resultDeclaredBy=-1, createdAt=1702193861480, updatedAt=1702193881226, settled=null)
+2023.12.10 13:08:01.227 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:01.728 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:02.229 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:02.731 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:03.232 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:03.748 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:04.251 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:04.752 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:05.255 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:05.767 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:06.271 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:06.773 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:07.277 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:07.782 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:08.282 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:08.786 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:09.288 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:09.789 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:10.293 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:10.793 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:11.296 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:11.796 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:12.298 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:12.798 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:13.301 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:13.805 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:14.309 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:14.812 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:15.316 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:15.817 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:16.322 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:16.825 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:17.328 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:17.828 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:18.330 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:18.832 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:19.332 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:19.838 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:20.341 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:20.842 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:21.344 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:21.848 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:22.351 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:22.852 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:23.354 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:23.858 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:24.359 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:24.861 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:25.366 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:25.866 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:26.369 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:26.873 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:27.375 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:27.879 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:28.384 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:28.887 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:29.392 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:29.896 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:30.399 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:30.901 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:31.403 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:31.909 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:32.412 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:32.916 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:33.418 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:33.920 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:34.421 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:34.925 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:35.429 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:35.934 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:36.438 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:36.950 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:37.451 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:37.953 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:38.463 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:38.965 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:39.466 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:39.968 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:40.470 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:40.973 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:41.474 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:41.975 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:42.480 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:42.981 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:43.485 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:43.988 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:44.491 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:44.991 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:45.491 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:45.997 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:46.501 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:47.005 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:47.509 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:48.012 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:48.517 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:49.018 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:49.521 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:50.022 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:50.525 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:51.025 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:51.527 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:52.027 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:52.527 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:53.028 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:53.546 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:54.050 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:54.554 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:55.055 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:55.558 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:56.063 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:56.565 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:57.067 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:57.569 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:58.069 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:58.570 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:59.072 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:08:59.572 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:00.073 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:00.577 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:01.079 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:01.583 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:02.088 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:02.588 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:03.092 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:03.597 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:04.101 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:04.601 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:05.103 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:05.607 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:06.111 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:06.615 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:07.120 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:07.621 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:08.121 [INFO] com.gameapp.colorprediction.CPScheduledTask: Waiting for period to end
+2023.12.10 13:09:08.468 [ERROR] com.gameapp.colorprediction.CPScheduledTask: Error while waiting for period to end
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method) ~[?:1.8.0_382]
+	at com.gameapp.colorprediction.CPScheduledTask.run(CPScheduledTask.java:67) ~[classes/:?]
+	at com.gameapp.colorprediction.CPScheduledTask$$FastClassBySpringCGLIB$$e716e23d.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.gameapp.colorprediction.CPScheduledTask$$EnhancerBySpringCGLIB$$5d220515.run(<generated>) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_382]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_382]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_382]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_382]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_382]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_382]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_382]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_382]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_382]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_382]
+2023.12.10 13:09:08.472 [ERROR] com.gameapp.colorprediction.CPScheduledTask: Error while running scheduled task
+java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+	at com.gameapp.colorprediction.CPScheduledTask.run(CPScheduledTask.java:70) ~[classes/:?]
+	at com.gameapp.colorprediction.CPScheduledTask$$FastClassBySpringCGLIB$$e716e23d.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.gameapp.colorprediction.CPScheduledTask$$EnhancerBySpringCGLIB$$5d220515.run(<generated>) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_382]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_382]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_382]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_382]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_382]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_382]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_382]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_382]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_382]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_382]
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method) ~[?:1.8.0_382]
+	at com.gameapp.colorprediction.CPScheduledTask.run(CPScheduledTask.java:67) ~[classes/:?]
+	... 25 more
+2023.12.10 13:09:08.474 [INFO] com.gameapp.colorprediction.AlertService: Sending alert for CPAlertContext(betId=null, userId=null, periodId=20231007, message=Error while running scheduled task, error=java.lang.InterruptedException: sleep interrupted)
+2023.12.10 13:09:08.479 [WARN] com.zaxxer.hikari.pool.ProxyConnection: HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@50455257 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 4 milliseconds ago. The last packet sent successfully to the server was 4 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2050) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.zaxxer.hikari.pool.ProxyConnection.setAutoCommit(ProxyConnection.java:414) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.setAutoCommit(HikariProxyConnection.java) ~[HikariCP-4.0.3.jar:?]
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.resetConnection(AbstractLogicalConnectionImplementor.java:106) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.afterCompletion(LogicalConnectionManagedImpl.java:290) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.commit(AbstractLogicalConnectionImplementor.java:95) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:282) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.6.11.Final.jar:5.6.11.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.gameapp.colorprediction.CPScheduledTask$$EnhancerBySpringCGLIB$$5d220515.run(<generated>) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_382]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_382]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_382]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_382]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.23.jar:5.3.23]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_382]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_382]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_382]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_382]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_382]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_382]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 4 milliseconds ago. The last packet sent successfully to the server was 4 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_382]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_382]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_382]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_382]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:581) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2033) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	... 30 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:2033) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	... 30 more

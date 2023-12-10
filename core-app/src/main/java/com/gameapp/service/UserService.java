@@ -53,7 +53,7 @@ public class UserService {
         String userId = userDto.getLoggedInUserId();
         String refereeCode = referralRequest.getReferralCode();
 
-        Optional<User> optionalUser = userRepo.findById(userId)
+        Optional<User> optionalUser = userRepo.findById(userId);
         optionalUser.ifPresent(user -> {
             if (user.getReferralCode() != null) {
                 throw new AppException("Referral code already added");

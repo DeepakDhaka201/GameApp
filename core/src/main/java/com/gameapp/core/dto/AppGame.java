@@ -2,19 +2,18 @@ package com.gameapp.core.dto;
 
 import lombok.Getter;
 
+
 @Getter
 public enum AppGame {
-    LUDO_CLASSIC,
-    LUDO_POPULAR,
-    LUDO_QUICK,
+    LUDO_KING,
     COLOR_PREDICTION,
     AVIATOR;
 
-    public static CommissionLevel getCommisionLevel(AppGame game, Double amount) {
-        switch (game) {
-            case LUDO_CLASSIC:
-            case LUDO_POPULAR:
-            case LUDO_QUICK:
+    public static CommissionLevel getLudoCommisionLevel(LudoType ludoType, Double amount) {
+        switch (ludoType) {
+            case LUDO_KING_CLASSIC:
+            case LUDO_KING_POPULAR:
+            case LUDO_KING_QUICK:
                 return CommissionLevel.PERCENT_5;
         }
         return CommissionLevel.PERCENT_0;

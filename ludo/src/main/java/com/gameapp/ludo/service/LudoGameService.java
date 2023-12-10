@@ -13,6 +13,7 @@ import com.gameapp.core.util.AppError;
 import com.gameapp.core.util.AppException;
 
 import java.time.Instant;
+import java.util.Objects;
 
 import static com.gameapp.core.util.AppUtils.getTableLockKey;
 import static com.gameapp.core.util.AppUtils.getWalletLockKey;
@@ -45,10 +46,11 @@ public class LudoGameService {
             if (userBalance.getBalance() >= amount) {
                 createNewLudoTable(userId, amount, createLudoTableRequest.getType());
             } else {
+                log.error("Insufficient balance : {} , {}", userId, createLudoTableRequest);
                 throw new AppException(AppError.INSUFFICIENT_BALANCE, INSUFFICIENT_BALANCE);
             }
         } catch (Exception exception) {
-            log.error("error while creating ludo table : {} , {}", userId, createLudoTableRequest);
+            log.error("Error while creating ludo table : {} , {}", userId, createLudoTableRequest);
             throw exception;
         } finally {
             if (walletLockTaken) {
@@ -58,9 +60,9 @@ public class LudoGameService {
         }
     }
 
-    private void createNewLudoTable(String userId, Double amount, AppGame type) {
+    private void createNewLudoTable(String userId, Double amount, LudoType type) {
         if (tableRepo.findByCreatedByAndAmountAndLudoType(userId, amount, type).isPresent()) {
-            throw new AppException("Table already exists");
+            throw new AppException(AppError.LUDO_TABLE_ALREADY_EXIST, "Table already exists");
         }
 
         LudoTable ludoTable = new LudoTable();
@@ -73,8 +75,8 @@ public class LudoGameService {
         tableRepo.save(ludoTable);
     }
 
-    private Double calculatePrize(Double amount, AppGame type) {
-        CommissionLevel commissionLevel = AppGame.getCommisionLevel(AppGame.LUDO_CLASSIC, amount);
+    private Double calculatePrize(Double amount, LudoType type) {
+        CommissionLevel commissionLevel = AppGame.getLudoCommisionLevel(type, amount);
         return Math.ceil(amount * 2 - amount * commissionLevel.getCommission()/100);
     }
 
@@ -88,7 +90,9 @@ public class LudoGameService {
         try {
             tableLockTaken = lockService.waitForLock(tableLockKey, 5);
 
-            LudoTable ludoTable = tableRepo.findById(tableId).get();
+            LudoTable ludoTable = tableRepo.findById(tableId)
+                    .orElseThrow(() -> new AppException(AppError.LUDO_TABLE_NOT_FOUND, "Table not found"));
+
             if (ludoTable.getCreatedBy().equals(userDto.getLoggedInUserId())) {
                 throw new AppException("Invalid Request");
             }
@@ -122,7 +126,8 @@ public class LudoGameService {
         try {
             tableLockTaken = lockService.waitForLock(tableLockKey, 5);
 
-            LudoTable ludoTable = tableRepo.findById(tableId).get();
+            LudoTable ludoTable = tableRepo.findById(tableId)
+                    .orElseThrow(() -> new AppException(AppError.LUDO_TABLE_NOT_FOUND, "Table not found"));
             if (!ludoTable.getCreatedBy().equals(userDto.getLoggedInUserId())) {
                 throw new AppException("Invalid Request");
             }
@@ -151,13 +156,18 @@ public class LudoGameService {
 
         try {
             tableLockTaken = lockService.waitForLock(tableLockKey, 5);
-            LudoTable ludoTable = tableRepo.findById(tableId).get();
+            LudoTable ludoTable = tableRepo.findById(tableId)
+                    .orElseThrow(() -> new AppException(AppError.LUDO_TABLE_NOT_FOUND, "Table not found"));
             if (!ludoTable.getCreatedBy().equals(userDto.getLoggedInUserId())) {
-                throw new AppException("Invalid Request");
+                throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
+            }
+
+            if (Objects.isNull(ludoTable.getAcceptedBy())) {
+                throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
             }
 
             if (!ludoTable.getStatus().equals(TableStatus.MATCHING)) {
-                throw new AppException("Invalid Request");
+                throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
             }
 
             String roomCode = ludoKingService.getLudoKingRoomCode(ludoTable.getLudoType());
@@ -203,14 +213,15 @@ public class LudoGameService {
 
         try {
             tableLockTaken = lockService.waitForLock(tableLockKey, 10);
-            LudoTable ludoTable = tableRepo.findById(tableId).get();
+            LudoTable ludoTable = tableRepo.findById(tableId)
+                    .orElseThrow(() -> new AppException(AppError.LUDO_TABLE_NOT_FOUND, "Table not found"));
 
             if (!ludoTable.getCreatedBy().equals(userDto.getLoggedInUserId())) {
-                throw new AppException("Invalid Request");
+                throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
             }
 
             if (!ludoTable.getStatus().equals(TableStatus.MATCHING)) {
-                throw new AppException("Invalid Request");
+                throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
             }
 
             System.out.println(tableId);
@@ -225,15 +236,16 @@ public class LudoGameService {
 
 
     public void updateTableResult(UpdateResultRequest updateResultRequest, UserDto userDto) {
-        LudoTable ludoTable = tableRepo.findById(updateResultRequest.getTableId()).get();
+        LudoTable ludoTable = tableRepo.findById(updateResultRequest.getTableId())
+                .orElseThrow(() -> new AppException(AppError.LUDO_TABLE_NOT_FOUND, "Table not found"));
 
         if (!(ludoTable.getCreatedBy().equals(userDto.getLoggedInUserId())
                 || ludoTable.getAcceptedBy().equals(userDto.getLoggedInUserId()))) {
-            throw new AppException("Invalid Request");
+            throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
         }
 
         if (ludoTable.getStatus().equals(TableStatus.COMPLETED)) {
-            throw new AppException("Invalid Request");
+            throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
         }
 
         if (ludoTable.getStatus().equals(TableStatus.RUNNING) || ludoTable.getStatus().equals(TableStatus.UNDER_REVIEW)) {
@@ -247,17 +259,18 @@ public class LudoGameService {
                         updateResultRequest.getStatus(), updateResultRequest.getReason(), TableStatus.UNDER_REVIEW);
             }
         } else {
-            throw new AppException("Invalid Request");
+            throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
         }
     }
 
     public String getRoomCode(Long tableId, UserDto userDto) {
-        LudoTable ludoTable = tableRepo.findById(tableId).get();
+        LudoTable ludoTable = tableRepo.findById(tableId)
+                .orElseThrow(() -> new AppException(AppError.LUDO_TABLE_NOT_FOUND, "Table not found"));
         if (userDto.getLoggedInUserId().equals(ludoTable.getCreatedBy()) ||
                 userDto.getLoggedInUserId().equals(ludoTable.getAcceptedBy())) {
             return ludoTable.getRoomCode();
         } else {
-            throw new AppException("Invalid Request");
+            throw new AppException(AppError.INVALID_OPERATION, "Invalid Request");
         }
     }
 }

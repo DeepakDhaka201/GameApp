@@ -17,6 +17,7 @@ public class WebAPISecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/")
                 .permitAll();
     }
+
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth
